@@ -8,22 +8,25 @@
 }
 header{
     margin: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px #48529944;
 }
 
-
 /* mobile first */
-.bloques {
+.blockout {
     margin: 1rem;
     display:grid;
     gap: 1rem;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr%;
     justify-content: center;
 }
 
-/* desktop */
+/* desktop1 */
 @media screen and (min-width: 50rem) {
-    .bloques { grid-template: 50rem 50rem / 50% 50% ;}
+    /* lo que hace fr es que nos reparte el espacio disponible */
+    .blockout { grid-template-columns: 2fr 1fr ;}
 }
+
 
 .section{
     /* border-radius: 5px; */
