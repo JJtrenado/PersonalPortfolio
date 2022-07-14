@@ -8,10 +8,49 @@
 }
 
 header{
+    display:grid;
+    grid-template-columns: 180px 1fr ;
     margin: 1rem;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 5px #48529944;
+    background-image: url(/img/salmorejo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: 2px 2px 5px #48529944; */
+    height: 200px;
+    align-items: flex-end;
+    margin-bottom: 80px;
 }
+
+img{
+    object-fit:cover;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: white;
+    transform: translate(0, 60px);
+}
+
+.nombre {
+    align-content:flex-end;
+    transform: translate(0, 60px);
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#aboutme{
+    grid-area: aboutme;
+}
+#education{
+    grid-area: education;
+}
+#currently{
+    grid-area: currently;
+}
+
+
 
 /* mobile first */
 .blockout {
@@ -23,30 +62,21 @@ header{
     gap: 1rem;
 }
 
-.section{
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 5px #48529944;
-}
-#aboutme{
-    grid-area: aboutme;
-}
-#education{
-    grid-area: education;
-}
-#currently{
-    grid-area: currently;
-}
-
 /* desktop1 */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 50rem) {
     /* lo que hace fr es que nos reparte el espacio disponible */
     .blockout {
         grid-template-areas: 
-            'aboutme     education'
-            'currently   education';
+        'aboutme     education'
+        'currently   education';
         grid-template-columns: 2fr 1fr ;
     }
 }
+
+.section{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px #48529944;
+}  
 
 .content{
     padding: 1rem;
