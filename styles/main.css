@@ -77,6 +77,11 @@ header{
 
 .section{
     background-image: linear-gradient(to bottom left , rgba(33, 23, 175, 0), rgba(255, 255, 255, 0.123));
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-color: rgb(232, 252, 255, 0.1);
+
     /* box-shadow: 2px 2px 5px #48529944; */
 }  
 
@@ -86,9 +91,9 @@ header{
 
 .section .titulo{
     /* border-radius: 5px 5px 0px 0px; */
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color:linear-gradient(to bottom right, rgb(33, 23, 175), rgb(5, 22, 150));
+    border-color: rgb(232, 252, 255, 0.5);
 
 }
 
