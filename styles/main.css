@@ -1,7 +1,6 @@
 *{
     margin: 0;
 	padding: 0;
-	list-style: none;
 	text-decoration: none;
 	border: none;
 	outline: none;
@@ -97,6 +96,25 @@ header{
     padding: 0.3rem 1rem;
 }
 
-.tab{
+ul{
     margin-left: 2rem;
 }
+
+a:link {
+    color:aqua;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: aqua;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aqua;
+  }
+  
+  /* selected link */
+  a:active {
+    color: aqua;
+  }
