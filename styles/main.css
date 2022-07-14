@@ -23,7 +23,7 @@ header{
     margin-bottom: 2rem;
     background-image: 
     linear-gradient(to bottom, rgba(195, 67, 255, 0),rgba(195, 67, 255, 0),rgba(5, 0, 32, 0.219), rgb(5, 0, 32)),
-    url(/img/salmorejo.png);
+    url("https://raw.githubusercontent.com/JJtrenado/PersonalPortfolio/main/img/salmorejo.png");
 
     background-size:cover;
     background-position-x: center;
