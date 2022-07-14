@@ -72,7 +72,7 @@ header{
         grid-template-areas: 
         'aboutme     education'
         'currently   education';
-        grid-template-columns: 2fr 1fr ;
+        grid-template-columns: 2fr 1fr;
     }
 }
 
