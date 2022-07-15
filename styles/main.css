@@ -17,7 +17,7 @@ body{
 /* mobile first */
 header{
     display:grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 170px 1fr;
     grid-template-rows: 1fr;
     height: 400px;
     margin-bottom: 2rem;
@@ -54,26 +54,24 @@ header h1{
     .contacto{
         grid-column: 3;
         margin-left: auto;
-        margin-right: 1rem;
+        margin-right: 1.2rem;
         display: block;
     }
 }
 
-#aboutme{
-    grid-area: aboutme;
-}
-#education{
-    grid-area: education;
-}
-#currently{
-    grid-area: currently;
+#aboutme{grid-area: aboutme;}
+#education{grid-area: education;}
+#currently{grid-area: currently;}
+#github{
+    grid-area: github;
+    margin: auto;
 }
 
 /* mobile first */
 .blockout {
     display:grid;
     margin: 1rem;
-    grid-template-areas: 'aboutme' 'currently' 'education';
+    grid-template-areas: 'aboutme' 'currently' 'education' 'github';
     grid-template-columns: 1fr ;
     justify-content: center;
     gap: 1rem;
@@ -85,7 +83,7 @@ header h1{
     .blockout {
         grid-template-areas: 
         'aboutme     education'
-        'currently   education';
+        'currently   github';
         grid-template-columns: 2fr 1fr;
     }
 }
