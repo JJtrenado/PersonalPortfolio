@@ -5,7 +5,6 @@
 	border: none;
 	outline: none;
 }
-
 body{
     max-width: 1300px;
     margin: 0 auto;
@@ -14,23 +13,26 @@ body{
     color:rgb(232, 252, 255);
     
 }
-
+/* mobile first */
 header{
     display:grid;
-    grid-template-columns: 160px 1fr 1fr;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 370px 1fr;
     height: 400px;
-    align-items: flex-end;
     margin-bottom: 2rem;
+    align-items: flex-end;
+
     background-image: 
     linear-gradient(to bottom, rgba(195, 67, 255, 0),rgba(195, 67, 255, 0),rgba(5, 0, 32, 0.1), rgb(5, 0, 32)),
-    url("https://raw.githubusercontent.com/JJtrenado/PersonalPortfolio/main/img/salmorejo.png");
-
+    url(/img/salmorejo.png);
     background-size:cover;
     background-position-x: center;
 }
 
 .profile {
     object-fit:cover;
+    grid-column: 1;
+    grid-row: 1/4;
     border-radius: 50%;
     border: 2px solid;
     border-color: rgba(227, 251, 255, 0.6);
@@ -38,12 +40,37 @@ header{
     box-shadow: -2px 2px 5px #00000044;
 
 }
+.nombre{
+    grid-column: 2;
+    grid-row: 1;
+
+}
 
 .contacto{
-    margin-left: auto;
-    margin-right: 1rem;
-    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    
 }
+
+/* desktop1 */
+@media screen and (min-width: 50rem) {
+    header{
+        grid-template-columns: 180px 1fr 1fr;
+        grid-template-rows: 1fr ;
+    }
+    .nombre{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .contacto{
+        grid-column: 3;
+        grid-row: 1;
+        margin-left: auto;
+        margin-right: 1rem;
+        display: block;
+    }    
+}
+
 
 #aboutme{
     grid-area: aboutme;
