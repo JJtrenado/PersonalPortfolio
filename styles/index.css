@@ -304,7 +304,8 @@ template {
   display: none; }
 
 a:link {
-  color: aqua; }
+  color: aqua;
+  text-decoration: none; }
 
 /* visited link */
 a:visited {
@@ -378,6 +379,21 @@ header h1, header p {
     margin-left: auto;
     margin-right: 1.2rem;
     display: block; } }
+.nav-link {
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px; }
+
+.nav-link:hover {
+  background-color: #e8fcff;
+  color: #050020; }
+
+nav a:link, nav a:visited {
+  color: #e8fcff; }
+
+nav a:hover, nav a:active {
+  color: aqua; }
+
 header {
   font-family: 'Roboto', sans-serif;
   display: grid;
@@ -401,6 +417,12 @@ header {
   border-left: 1px solid;
   border-color: #e8fcff1a;
   box-shadow: -5px 5px 5px #00000044; }
+
+nav {
+  display: flex;
+  gap: 2rem;
+  margin: 0.5rem 1rem;
+  align-items: center; }
 
 body {
   font-family: 'Roboto', sans-serif;

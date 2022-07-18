@@ -15,10 +15,13 @@
 @import "6atoms/section-titulo.scss";
 @import "6atoms/profile-photo.scss";
 @import "6atoms/contacto.scss";
+@import "6atoms/nav-link.scss";
+
 
 //molecules
 @import "7molecules/header.scss";
 @import "7molecules/section.scss";
+@import "7molecules/navbar.scss";
 
 //organisms
 @import "8organisms/body.scss";

@@ -1,0 +1,19 @@
+@import "../1settings/colors.scss";
+
+.nav-link{
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.nav-link:hover{
+  background-color: $text-color;
+  color:$background-color;
+}
+
+nav a:link, nav a:visited{
+  color:$text-color;
+}
+
+nav a:hover, nav a:active{
+  color:$link-color;
+}
