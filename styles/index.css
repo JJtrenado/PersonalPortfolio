@@ -409,7 +409,7 @@ header {
   margin-bottom: 2rem;
   align-items: flex-end;
   gap: 0.8rem;
-  background-image: linear-gradient(to bottom, rgba(195, 67, 255, 0), rgba(195, 67, 255, 0), rgba(5, 0, 32, 0.1), #050020), url(../../img/salmorejo.png);
+  background-image: linear-gradient(to bottom, rgba(195, 67, 255, 0), rgba(195, 67, 255, 0), rgba(5, 0, 32, 0.1), #050020), url(../../../img/salmorejo.png);
   background-size: cover;
   background-position-x: center; }
   @media screen and (min-width: 35rem) {
