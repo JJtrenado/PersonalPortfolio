@@ -1,0 +1,12 @@
+.section .titulo{
+    /* border-radius: 5px 5px 0px 0px; */
+    padding: 0rem 1rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e8fcff80;
+}
+
+header h1, header p{
+    margin: 5px 0px 0px 0px;
+    grid-column: 2;
+}

@@ -1,0 +1,38 @@
+sirve para compilar codigo scss con varios ficheros y con utilidades extra
+
+lo he instalado con: sudo apt install ruby-sass
+
+para compilar: sass styles/main.scss styles/main.css
+
+
+carpetas:
+
+styles
+├── settings
+│       ├── _colors.scss
+│       └── _typography.scss
+├── tools
+│       └── _mixins.scss
+├── generic
+│       ├── _normalize.scss
+│       └── _box-sizing.scss
+├── elements
+│       ├── _headings.scss
+│       └── _links.scss
+├── objects -------------------- solo dan estructura, no dan colores ni nada
+│       ├── _container.scss
+│       └── _ui-list.scss
+├── atoms
+│       ├── _button.scss
+│       ├── _image.scss
+│       └── _pill.scss
+├── molecules
+│       ├── _card.scss
+│       └── _form.scss
+├── organisms
+│       ├── _gallery.scss
+│       └── _header.scss
+├── utilities
+│       ├── _typography.scss 
+│       └── _error.scss
+└── index.scss
