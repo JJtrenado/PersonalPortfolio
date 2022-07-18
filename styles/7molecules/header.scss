@@ -1,6 +1,19 @@
 @import "../1settings/gradients.scss";
 
 header{
+    font-family: 'Roboto', sans-serif;
+
+    display:grid;
+    grid-template-columns: 170px 1fr;
+    grid-template-rows: 1fr;
+    height: 450px;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    gap: 0.8rem;
+    @media screen and (min-width: 35rem) {
+        grid-template-columns: 180px 230px 1fr; 
+    }
+    
     background-image:$_salmorejo,url(../../img/salmorejo.png);
     background-size:cover;
     background-position-x: center;

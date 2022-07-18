@@ -1,22 +1,20 @@
 //settings
 @import "1settings/gradients.scss";
-  
-//elements
-@import "4elements/body.scss";
-@import "4elements/headings.scss";
-@import "4elements/links.scss";
 
 //generic
 @import "3generic/normalize";
 
+//elements
+@import "4elements/links.scss";
+
  //objects
 @import "5objects/blockout.scss";
 @import "5objects/content.scss";
-@import "5objects/header.scss";
 
 //atoms
 @import "6atoms/section-titulo.scss";
 @import "6atoms/profile-photo.scss";
+@import "6atoms/contacto.scss";
 
 //molecules
 @import "7molecules/header.scss";
