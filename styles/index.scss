@@ -1,18 +1,7 @@
 //settings
-@import "1settings/colors.scss";
-@import "1settings/gradients.scss";
-@import "1settings/typography.scss";
-
-
-//generic
-@import "3generic/normalize";
-
-//elements
-@import "4elements/links.scss";
-
- //objects
-@import "5objects/blockout.scss";
-@import "5objects/content.scss";
+@import "1settings/colors";
+@import "1settings/links";
+@import "1settings/normalize";
 
 //atoms
 @import "6atoms/titulo.scss";
@@ -27,4 +16,4 @@
 @import "7molecules/navbar.scss";
 
 //organisms
-@import "8organisms/body.scss";
+@import "8organisms/body";
