@@ -1,0 +1,31 @@
+.entrada{
+    background-image: linear-gradient(to bottom left , rgba(33, 23, 175, 0), rgba(255, 255, 255, 0.123));
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-color: #e8fcff1a;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.267);
+    width: 300px;
+
+    h2{
+        margin: 1rem;
+    }
+
+    .content{
+        padding-left: 1rem;
+    }
+
+    ul{
+        margin-top: 0px;
+    }
+
+    .portada{
+        border-radius: 10px 10px 0 0;
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        // background-image: url(../../../img/grid.png);
+        // background-size:none;
+        // background-repeat: no-repeat;
+    }
+}
