@@ -1,8 +1,16 @@
-@media screen and (min-width: 35rem) {
-    .contacto{
-        grid-column: 3;
-        margin-left: auto;
-        margin-right: 1.2rem;
-        display: block;
-    }
+.contacto{
+  @media screen and (min-width: 35rem) {
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: 1.2rem;
+    display: block;
+  }
+
+  a:link, a:visited{
+    color:rgb(232, 252, 255);
+  }
+  
+  a:hover, a:active{
+    color:aqua;
+  }
 }

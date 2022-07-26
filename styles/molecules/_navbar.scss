@@ -3,4 +3,26 @@ nav{
     gap: 1 rem;
     margin: 0.5rem 1rem;
     align-items: center;
+
+    .nav-link{
+        text-decoration: none;
+        padding: 0rem 1rem 0.5rem;
+        border-radius: 5px;
+        //border: 1px solid;
+        // background-color:rgba(255, 255, 255, 0.1);
+        // border-color: rgba(255, 255, 255, 0.2 )
+    }
+    .nav-link:hover{
+        background-color:rgba(255, 255, 255, 0.8 );
+        color:#050020;
+    }
+      
+    a:link, a:visited{
+        color:rgb(232, 252, 255);
+    }
+      
+    a:hover, a:active{
+        color:rgb(232, 252, 255);
+    }
 }
+
