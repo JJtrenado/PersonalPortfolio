@@ -30,7 +30,7 @@
 .blog {
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: center;
   margin: 1rem;
   gap: 1rem;
   /* le damos un ancho y el resto para el aside  ademas ponemos el grow a 1 para que ocupe todo lo que pueda*/
