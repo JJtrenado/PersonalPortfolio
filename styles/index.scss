@@ -1,19 +1,18 @@
 //settings
-@import "1settings/colors";
-@import "1settings/links";
-@import "1settings/normalize";
+@import "settings/links";
+@import "settings/normalize";
 
 //atoms
-@import "6atoms/titulo.scss";
-@import "6atoms/profile-photo.scss";
-@import "6atoms/contacto.scss";
-@import "6atoms/nav-link.scss";
+@import "atoms/titulo";
+@import "atoms/profile-photo";
+@import "atoms/contacto";
+@import "atoms/nav-link";
 
 
 //molecules
-@import "7molecules/header.scss";
-@import "7molecules/section.scss";
-@import "7molecules/navbar.scss";
+@import "molecules/header";
+@import "molecules/section";
+@import "molecules/navbar";
 
 //organisms
-@import "8organisms/body";
+@import "organisms/body";
