@@ -4,9 +4,17 @@
     border-bottom: 1px solid;
     border-left: 1px solid;
     border-color: #e8fcff1a;
-    box-shadow: -5px 5px 5px #00000044;
-} 
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.267);
 
-.section h2{
-    margin: 1rem;
+    h2{
+        margin: 1rem;
+    }
+    
+    .content{
+        padding-left: 1rem;
+    }
+
+    ul{
+        margin-top: 0px;
+    }
 }

@@ -1,5 +1,3 @@
-@import "../1settings/gradients.scss";
-
 header{
     font-family: 'Roboto', sans-serif;
 
@@ -14,12 +12,12 @@ header{
         grid-template-columns: 180px 230px 1fr; 
     }
     
-    background-image:$_salmorejo,url(../img/salmorejo.png);
+    background-image:linear-gradient(to bottom, rgba(195, 67, 255, 0),rgba(195, 67, 255, 0),rgba(5, 0, 32, 0.1), rgb(5, 0, 32)),url(../img/salmorejo.png);
     background-size:cover;
     background-position-x: center;
-}
-
-header h1, header p{
-    margin: 5px 0px 0px 0px;
-    grid-column: 2;
+    
+    h1, p{
+        margin: 5px 0px 0px 0px;
+        grid-column: 2;
+    }
 }
