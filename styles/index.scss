@@ -1,12 +1,12 @@
 //settings
 @import "settings/links";
 @import "settings/normalize";
+@import "settings/body";
 
 //atoms
-@import "atoms/titulo";
+@import "atoms/section_titulo";
 @import "atoms/profile-photo";
 @import "atoms/contacto";
-@import "atoms/nav-link";
 
 
 //molecules
@@ -15,4 +15,4 @@
 @import "molecules/navbar";
 
 //organisms
-@import "organisms/body";
+@import "organisms/wrapper";
