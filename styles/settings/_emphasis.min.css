@@ -1,1 +1,1 @@
-.emphasis{background-color:aqua;color:black !important}
+.emphasis{background-image:linear-gradient(to bottom left, #00d1d1, cyan);box-shadow:-5px 5px 10px rgba(0,232,232,0.384),5px -5px 10px rgba(0,232,232,0.164);color:black !important}.emphasis:hover{background-image:linear-gradient(to bottom left, #d6d6d6, #fff);color:#050020}
