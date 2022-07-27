@@ -25,6 +25,10 @@
   height: 200px;
   width: 304px;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
 }
 
 .blog {
