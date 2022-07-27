@@ -5,7 +5,7 @@
   border-left: 1px solid;
   border-color: #e8fcff1a;
   box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.267);
-  width: 300px;
+  width: 304px;
 }
 
 .entrada h2 {
@@ -13,7 +13,7 @@
 }
 
 .entrada .content {
-  padding-left: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .entrada ul {
@@ -23,7 +23,7 @@
 .entrada .portada {
   border-radius: 10px 10px 0 0;
   height: 200px;
-  width: 300px;
+  width: 304px;
   object-fit: cover;
 }
 
