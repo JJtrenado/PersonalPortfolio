@@ -1,0 +1,28 @@
+#aboutme {
+  grid-area: aboutme;
+}
+
+#education {
+  grid-area: education;
+}
+
+#currently {
+  grid-area: currently;
+}
+
+#github {
+  grid-area: github;
+  margin: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #050020;
+  color: #e8fcff;
+}
+
+body h3 {
+  margin-bottom: 10px;
+}

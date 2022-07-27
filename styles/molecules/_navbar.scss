@@ -1,12 +1,16 @@
 nav{
     display:flex;
-    gap: 1 rem;
+    gap: 1rem;
     margin: 0.5rem 1rem;
     align-items: center;
 
+    h3{
+        margin-top: 0.7rem;
+    }
+
     .nav-link{
         text-decoration: none;
-        padding: 0rem 1rem 0.5rem;
+        padding: 0rem 0.7rem ;
         border-radius: 5px;
         //border: 1px solid;
         // background-color:rgba(255, 255, 255, 0.1);
