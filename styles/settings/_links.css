@@ -1,8 +1,8 @@
-a:link, :visited{
-  color:aqua;
+a:link, :visited {
+  color: aqua;
   text-decoration: none;
 }
-  
+
 /* visited link */
 a:visited {
   color: aqua;
