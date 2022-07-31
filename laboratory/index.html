@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juanjo's lab</title>
     <link rel="stylesheet" href="../styles/index.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../blog/styles/index.min.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙋‍♂️</text></svg>">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,6 +38,29 @@
   </nav>
 
   <main class="wrapper">
+    
+    <div class="section">
+      <div class="titulo"><h2>Slider</h2></div>
+      <div class="content">
+        <p>Se trata de un Slider haciendo uso de Javascript.</p>
+      </div>
+      <div class="slide-contenedor">
+        <div class="miSlider fade active">
+          <img class="" src="../img/salmorejo4.jpeg" alt="Malaga Jam">
+        </div>
+        <div class="miSlider fade">
+          <img class="" src="../img/salmorejo2.jpg" alt="Malaga Jam">
+        </div>
+        <div class="miSlider fade">
+          <img class="" src="../img/salmorejo3.jpg" alt="Malaga Jam">
+        </div>
+        <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      </div>
+    </div>
+    
     <div class="section">
       <div class="titulo"><h2>Formulario</h2></div>
       <div class="content">
@@ -52,6 +77,8 @@
         </form>
       </div>
     </div>
+
   </main>
+  <script src="main.js"></script>
 </body>
 </html>
