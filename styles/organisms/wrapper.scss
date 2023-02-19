@@ -6,11 +6,11 @@
   justify-content: center;
   gap: 1rem;
   /* desktop1 */
-  @media screen and (min-width: 60rem) {
-      /* lo que hace fr es que nos reparte el espacio disponible */
-      grid-template-areas: 
-      'aboutme     education'
-      'currently   github';
-      grid-template-columns: 2fr 1fr;
-  }
+  // @media screen and (min-width: 60rem) {
+  //     /* lo que hace fr es que nos reparte el espacio disponible */
+  //     grid-template-areas: 
+  //     'aboutme     education'
+  //     'currently   github';
+  //     grid-template-columns: 3fr 2fr;
+  // }
 }

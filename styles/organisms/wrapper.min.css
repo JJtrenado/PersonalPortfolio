@@ -1,0 +1,1 @@
+.wrapper{display:grid;margin:1rem;grid-template-areas:'aboutme' 'currently' 'education' 'github';grid-template-columns:1fr;justify-content:center;gap:1rem}

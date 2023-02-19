@@ -1,16 +1,9 @@
 .wrapper {
   display: grid;
   margin: 1rem;
-  grid-template-areas: "aboutme" "currently" "education" "github";
+  grid-template-areas: 'aboutme' 'currently' 'education' 'github';
   grid-template-columns: 1fr;
   justify-content: center;
   gap: 1rem;
   /* desktop1 */
 }
-@media screen and (min-width: 60rem) {
-  .wrapper {
-    /* lo que hace fr es que nos reparte el espacio disponible */
-    grid-template-areas: "aboutme     education" "currently   github";
-    grid-template-columns: 2fr 1fr;
-  }
-}/*# sourceMappingURL=wrapper.css.map */
